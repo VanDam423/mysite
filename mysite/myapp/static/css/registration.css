@@ -1,0 +1,99 @@
+@font-face{
+    font-family: "RubikMonoOne";
+    src: url("src/fonts/RubikMonoOne-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Manrope";
+    src: url("src/fonts/Manrope-VariableFont_wght.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 200, 300, 400, 500, 600, 700, 800;
+}
+
+/* Навбар */
+
+.navbar {
+    background-color: #0e3746;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    height: 60px;
+    padding: 10px 20px;
+}
+.navbar a {
+    color: #f4f2ec;
+}
+.navbar-brand {
+    font-family: "RubikMonoOne";
+}
+.nav-item{
+    font-family: "Manrope";
+    font-weight: 200;
+}
+/* Форма регистрации */
+.container{
+    margin-top: 10px;
+}
+.container h1{
+    font-family: "Manrope";
+    font-weight: 800;
+}
+.button {
+    font-family: "Manrope";
+    font-weight: 400 !important;
+    border-color: #0e3746 !important;
+    color: #f4f2ec;
+    background-color: #0e3746 !important;
+    border-radius: 8px !important;
+}
+form label{
+    font-family: "Manrope";
+    font-weight: 400;  
+}
+/* Футер */
+footer {
+    background-color: #0e3746;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer p {
+    font-family: "RubikMonoOne";
+    font-size: 14px;
+    color: #f4f2ec;
+}
+  
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.footer ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.footer a {
+    font-family: "Manrope";
+    font-weight: 200;
+    color: #f4f2ec;
+    text-decoration: none;
+}   
+/* Анимации при наведении */
+.nav-item:hover {
+    background-color: #91AEC1;
+    border-radius: 8px;
+}
+.navbar a:hover {
+    color: black;
+}
+.button:hover {
+    font-family: "Manrope";
+    font-weight: 400 !important;    
+    border-color: #91AEC1 !important;
+    color: black !important;
+    background-color: #91AEC1 !important;
+    border-radius: 10px !important;
+}
